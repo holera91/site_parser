@@ -7,6 +7,7 @@ from urllib.parse import urljoin
 from langdetect import detect
 from deep_translator import GoogleTranslator
 from concurrent.futures import ThreadPoolExecutor
+import re
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -131,20 +132,47 @@ def find_job_pages(url):
         logging.error(f"❌ Ошибка при поиске вакансий на {url}: {e}")
         return None
 
-def write_job_urls_to_sheet(sheet_name, websites, job_urls):
+def find_emails(html):
+    """
+    Ищет email-адреса в HTML-коде страницы.
+    """
+    try:
+        email_patterns = [
+            r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}",
+            r"[a-zA-Z0-9._%+-]+\s@\s[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}",
+            r"[a-zA-Z0-9._%+-]+\s\(at\)\s[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}",
+            r"[a-zA-Z0-9._%+-]+\s*\(at\)\s*[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+        ]
+        emails = set()
+        for pattern in email_patterns:
+            matches = re.findall(pattern, html)
+            for match in matches:
+                cleaned_email = match.replace(" ", "").replace("(at)", "@")
+                emails.add(cleaned_email)
+        logging.info(f"📧 Найдено {len(emails)} email-адресов.")
+        return list(emails)
+    except Exception as e:
+        logging.error(f"❌ Ошибка при поиске email-адресов: {e}")
+        return []
+
+def write_job_urls_and_emails_to_sheet(sheet_name, websites, job_urls, emails):
     try:
         client = authenticate_google_sheets()
         sheet = client.open(sheet_name).sheet1
-        headers = sheet.row_values(1)
         
-        if "Job Url" not in headers:
-            sheet.update_cell(1, 2, "Job Url")
-        
-        for i, urls in enumerate(job_urls, start=2):
+        for i, (urls, email_list) in enumerate(zip(job_urls, emails), start=2):
             if urls:
                 sheet.update_cell(i, 2, ", ".join(urls))
             else:
                 sheet.update_cell(i, 2, "нет URL")
+            
+            existing_emails = sheet.cell(i, 3).value
+            if existing_emails:
+                email_list = list(set(existing_emails.split(", ") + email_list))
+            if email_list:
+                sheet.update_cell(i, 3, ", ".join(email_list))
+            else:
+                sheet.update_cell(i, 3, "нет email")
         
         logging.info("✅ Данные успешно записаны в Google Sheets.")
     except Exception as e:
@@ -202,16 +230,11 @@ def update_open_positions(sheet_name):
         client = authenticate_google_sheets()
         sheet = client.open(sheet_name).sheet1
         
-        # Проверяем, есть ли колонка Open Position
-        headers = sheet.row_values(1)
-        if "Open Position" not in headers:
-            sheet.update_cell(1, 3, "Open Position")  # Добавляем колонку
-        
         # Читаем данные из колонки Job Url
         job_urls = sheet.col_values(2)
         for i, cell_value in enumerate(job_urls[1:], start=2):  # Пропускаем заголовок
             if cell_value.strip().lower() == "нет url":
-                sheet.update_cell(i, 3, "check manually")
+                sheet.update_cell(i, 4, "check manually")
                 continue
             
             # Если есть ссылки, парсим их
@@ -224,9 +247,9 @@ def update_open_positions(sheet_name):
             
             # Записываем результат в колонку Open Position
             if results:
-                sheet.update_cell(i, 3, ", ".join(results))
+                sheet.update_cell(i, 4, ", ".join(results))
             else:
-                sheet.update_cell(i, 3, "No relevant positions found")
+                sheet.update_cell(i, 4, "No relevant positions found")
         
         logging.info("✅ Колонка Open Position успешно обновлена.")
     except Exception as e:
@@ -241,14 +264,19 @@ def main():
         logging.warning("⚠️ Нет сайтов для парсинга.")
         return
     
-    logging.info("🔎 Начинаем поиск страниц с вакансиями...")
+    logging.info("🔎 Начинаем поиск страниц с вакансиями и email-адресов...")
     
-    # Используем многопоточность для ускорения
+    job_urls = []
+    emails = []
+    
     with ThreadPoolExecutor(max_workers=5) as executor:
-        job_urls = list(executor.map(find_job_pages, websites))
+        for website in websites:
+            job_urls.append(executor.submit(find_job_pages, website).result())
+            response = requests.get(website)
+            emails.append(find_emails(response.text))
     
     logging.info("✍️ Записываем результаты в таблицу...")
-    write_job_urls_to_sheet(sheet_name, websites, job_urls)
+    write_job_urls_and_emails_to_sheet(sheet_name, websites, job_urls, emails)
     
     logging.info("🔍 Парсим информацию с найденных ссылок...")
     update_open_positions(sheet_name)
