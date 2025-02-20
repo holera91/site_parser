@@ -37,7 +37,18 @@ def get_business_websites(sheet_name):
         websites = sheet.col_values(1)
         num_sites = len(websites) - 1
         logging.info(f"📌 Получено {num_sites} сайтов из таблицы.")
-        return websites[1:]  # Пропускаем заголовок
+        
+        # Проверка и исправление формата ссылок
+        corrected_websites = []
+        for website in websites[1:]:  # Пропускаем заголовок
+            website = website.strip()
+            if not website.startswith("http://") and not website.startswith("https://"):
+                website = "https://" + website
+            if not website.endswith("/"):
+                website += "/"
+            corrected_websites.append(website)
+        
+        return corrected_websites
     except Exception as e:
         logging.error(f"❌ Ошибка при чтении данных из таблицы: {e}")
         return []
