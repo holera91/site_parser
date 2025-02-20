@@ -16,7 +16,7 @@ _client = None
 
 def authenticate_google_sheets():
     global _client
-    if _client is not None:
+    if (_client is not None):
         return _client
 
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
@@ -78,6 +78,8 @@ def find_job_pages(url):
         
         for link in soup.find_all("a", href=True):
             href = link["href"].lower()
+            if href.startswith("mailto:"):
+                continue  # Пропускаем ссылки, начинающиеся с mailto:
             if any(keyword in href for keyword in keywords):
                 full_url = urljoin(url, link["href"])
                 
@@ -100,6 +102,8 @@ def find_job_pages(url):
             translated_keywords = translate_keywords(keywords, page_lang)
             for link in soup.find_all("a", href=True):
                 href = link["href"].lower()
+                if href.startswith("mailto:"):
+                    continue  # Пропускаем ссылки, начинающиеся с mailto:
                 if any(keyword in href for keyword in translated_keywords):
                     full_url = urljoin(url, link["href"])
                     
