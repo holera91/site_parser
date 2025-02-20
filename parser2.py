@@ -11,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-# Глобальная переменная для кэширования клиента Google Sheetss
+# Глобальная переменная для кэширования клиента Google Sheets
 _client = None
 
 def authenticate_google_sheets():
@@ -63,7 +63,10 @@ def translate_keywords(keywords, target_lang):
 
 def find_job_pages(url):
     try:
-        response = requests.get(url, timeout=10)
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+        }
+        response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
         
@@ -148,7 +151,10 @@ def parse_job_page(url):
     Парсит страницу с вакансиями и ищет ключевые слова.
     """
     try:
-        response = requests.get(url, timeout=10)
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+        }
+        response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
         
