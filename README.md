@@ -4,7 +4,7 @@
 
 ### 1. Создай виртуальное окружение (если его еще нет)
 
-Открой терминал (PowerShell или `cmd`) и перейди в папку с проектом:
+Открой терминал (PowerShell или `cmd` ) и перейди в папку с проектом:
 
 ```sh
 python -m venv venv
@@ -21,6 +21,10 @@ python -m venv venv
 - В PowerShell:
   ```sh
   venv\Scripts\Activate.ps1
+  ```
+- на Mac/Linux:
+  ```sh
+  source venv/bin/activate
   ```
   **Важно:** Если PowerShell блокирует выполнение скриптов, можно разрешить их командой:
   ```sh
