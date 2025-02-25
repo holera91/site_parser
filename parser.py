@@ -6,8 +6,8 @@ import logging
 from urllib.parse import urljoin
 from langdetect import detect
 from deep_translator import GoogleTranslator
-from concurrent.futures import ThreadPoolExecutor
 import re
+import time
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -83,7 +83,7 @@ def find_job_pages(url):
         soup = BeautifulSoup(response.text, "html.parser")
         
         page_lang = detect_page_language(response.text)
-        keywords = ["job", "career", "careers", "jobs", "hiring", "employment", "join us", "work with us", "vacancies", "karriere"]
+        keywords = ["job", "career", "careers", "jobs", "hiring", "employment", "join us", "work with us", "vacancies", "karriere" , "working at", "vacancy", "job openings"]
         
         job_links = set()
         base_links = set()  # Для хранения базовых ссылок
@@ -139,6 +139,9 @@ def find_job_pages(url):
             logging.warning(f"⚠️ На {url} страницы с вакансиями не найдены.")
         
         return list(job_links) if job_links else None
+    except requests.exceptions.SSLError:
+        logging.warning(f"⚠️ Пропускаем сайт {url} из-за ошибки SSL.")
+        return None
     except Exception as e:
         logging.error(f"❌ Ошибка при поиске вакансий на {url}: {e}")
         return None
@@ -166,28 +169,24 @@ def find_emails(html):
         logging.error(f"❌ Ошибка при поиске email-адресов: {e}")
         return []
 
-def write_job_urls_and_emails_to_sheet(sheet_name, websites, job_urls, emails):
+def write_job_urls_and_emails_to_sheet(sheet, row, job_urls, emails):
     try:
-        client = authenticate_google_sheets()
-        sheet = client.open(sheet_name).sheet1
+        if job_urls:
+            sheet.update_cell(row, 2, ", ".join(job_urls))
+        else:
+            sheet.update_cell(row, 2, "нет URL")
         
-        for i, (urls, email_list) in enumerate(zip(job_urls, emails), start=2):
-            if urls:
-                sheet.update_cell(i, 2, ", ".join(urls))
-            else:
-                sheet.update_cell(i, 2, "нет URL")
-            
-            existing_emails = sheet.cell(i, 3).value
-            if existing_emails:
-                email_list = list(set(existing_emails.split(", ") + email_list))
-            if email_list:
-                sheet.update_cell(i, 3, ", ".join(email_list))
-            else:
-                sheet.update_cell(i, 3, "нет email")
+        existing_emails = sheet.cell(row, 3).value
+        if existing_emails:
+            emails = list(set(existing_emails.split(", ") + emails))
+        if emails:
+            sheet.update_cell(row, 3, ", ".join(emails))
+        else:
+            sheet.update_cell(row, 3, "нет email")
         
-        logging.info("✅ Данные успешно записаны в Google Sheets.")
+        logging.info(f"✅ Данные для строки {row} успешно записаны в Google Sheets.")
     except Exception as e:
-        logging.error(f"❌ Ошибка при записи данных в таблицу: {e}")
+        logging.error(f"❌ Ошибка при записи данных в таблицу для строки {row}: {e}")
 
 def parse_job_page(url):
     """
@@ -229,42 +228,33 @@ def parse_job_page(url):
             return ", ".join(found_positions)
         else:
             return "No relevant positions found"
+    except requests.exceptions.SSLError:
+        logging.warning(f"⚠️ Пропускаем сайт {url} из-за ошибки SSL.")
+        return "SSL Error"
     except Exception as e:
         logging.error(f"❌ Ошибка при парсинге страницы {url}: {e}")
         return "Error parsing page"
 
-def update_open_positions(sheet_name):
+def update_open_positions(sheet, row, job_urls):
     """
-    Читает данные из колонки Job Url и обновляет колонку Open Position.
+    Обновляет колонку Open Position для заданной строки.
     """
     try:
-        client = authenticate_google_sheets()
-        sheet = client.open(sheet_name).sheet1
+        results = []
+        for url in job_urls:
+            if url:  # Пропускаем пустые строки
+                result = parse_job_page(url)
+                results.append(result)
         
-        # Читаем данные из колонки Job Url
-        job_urls = sheet.col_values(2)
-        for i, cell_value in enumerate(job_urls[1:], start=2):  # Пропускаем заголовок
-            if cell_value.strip().lower() == "нет url":
-                sheet.update_cell(i, 4, "check manually")
-                continue
-            
-            # Если есть ссылки, парсим их
-            urls = [url.strip() for url in cell_value.split(",")]
-            results = []
-            for url in urls:
-                if url:  # Пропускаем пустые строки
-                    result = parse_job_page(url)
-                    results.append(result)
-            
-            # Записываем результат в колонку Open Position
-            if results:
-                sheet.update_cell(i, 4, ", ".join(results))
-            else:
-                sheet.update_cell(i, 4, "No relevant positions found")
+        # Записываем результат в колонку Open Position
+        if results:
+            sheet.update_cell(row, 4, ", ".join(results))
+        else:
+            sheet.update_cell(row, 4, "No relevant positions found")
         
-        logging.info("✅ Колонка Open Position успешно обновлена.")
+        logging.info(f"✅ Колонка Open Position для строки {row} успешно обновлена.")
     except Exception as e:
-        logging.error(f"❌ Ошибка при обновлении колонки Open Position: {e}")
+        logging.error(f"❌ Ошибка при обновлении колонки Open Position для строки {row}: {e}")
 
 def main():
     sheet_name = "Parser"
@@ -277,20 +267,28 @@ def main():
     
     logging.info("🔎 Начинаем поиск страниц с вакансиями и email-адресов...")
     
-    job_urls = []
-    emails = []
+    client = authenticate_google_sheets()
+    sheet = client.open(sheet_name).sheet1
     
-    with ThreadPoolExecutor(max_workers=5) as executor:
-        for website in websites:
-            job_urls.append(executor.submit(find_job_pages, website).result())
-            response = requests.get(website)
-            emails.append(find_emails(response.text))
-    
-    logging.info("✍️ Записываем результаты в таблицу...")
-    write_job_urls_and_emails_to_sheet(sheet_name, websites, job_urls, emails)
-    
-    logging.info("🔍 Парсим информацию с найденных ссылок...")
-    update_open_positions(sheet_name)
+    for row, website in enumerate(websites, start=2):  # Пропускаем заголовок
+        logging.info(f"🔍 Обработка сайта: {website}")
+        
+        # Поиск страниц с вакансиями
+        job_urls = find_job_pages(website)
+        
+        # Поиск email-адресов
+        response = requests.get(website)
+        emails = find_emails(response.text)
+        
+        # Запись результатов в Google Sheets
+        write_job_urls_and_emails_to_sheet(sheet, row, job_urls, emails)
+        
+        # Обновление колонки Open Position
+        if job_urls:
+            update_open_positions(sheet, row, job_urls)
+        
+        # Добавляем задержку между запросами
+        time.sleep(1)
     
     logging.info("🎯 Парсинг завершен!")
 
