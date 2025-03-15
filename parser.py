@@ -1,5 +1,3 @@
-# шпрацює з 1 листом файлу Parser, шукає сторінки з вакансіями, 
-# потім проходиться і намагається знайти на них вакансії
 import gspread
 from google.oauth2.service_account import Credentials
 import requests
