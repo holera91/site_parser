@@ -1,0 +1,1205 @@
+[
+  {
+    "url": "http://intelligentautomationcorp.com",
+    "status": "error",
+    "response_time": 0,
+    "error_type": "connection_error",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:44:42.631693",
+    "error_message": "Cannot connect to host intelligentautomationcorp.com:80 ssl:False [nodename nor servname provided, or not known]"
+  },
+  {
+    "url": "https://interactioneurope.com",
+    "status": 301,
+    "response_time": 0.111889,
+    "error_type": "redirect",
+    "redirect_url": "https://www.covalensolutions.com/",
+    "final_url_check": {
+      "final_url": "https://www.covalensolutions.com/",
+      "status": 200,
+      "response_time": 0.495648,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:44:43.864322"
+  },
+  {
+    "url": "http://interactiveedge.com",
+    "status": 301,
+    "response_time": 0.090563,
+    "error_type": "redirect",
+    "redirect_url": "http://www.nuqleous.com/xp3-presentation-builder",
+    "final_url_check": {
+      "final_url": "http://www.nuqleous.com/xp3-presentation-builder",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://nuqleous.com/xp3-presentation-builder'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:44:45.422986"
+  },
+  {
+    "url": "https://interacty.me",
+    "status": 307,
+    "response_time": 0.340533,
+    "error_type": "redirect",
+    "redirect_url": "/uk",
+    "final_url_check": {
+      "final_url": "/uk",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "/uk"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:44:47.796284"
+  },
+  {
+    "url": "https://intergral.com",
+    "status": 301,
+    "response_time": 0.19536,
+    "error_type": "redirect",
+    "redirect_url": "https://www.intergral.com/",
+    "final_url_check": {
+      "final_url": "https://www.intergral.com/",
+      "status": 200,
+      "response_time": 0.135169,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:44:49.364404"
+  },
+  {
+    "url": "http://internationalshowtimes.com",
+    "status": 308,
+    "response_time": 0.221561,
+    "error_type": "redirect",
+    "redirect_url": "https://internationalshowtimes.com/",
+    "final_url_check": {
+      "final_url": "https://internationalshowtimes.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.internationalshowtimes.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:44:50.824451"
+  },
+  {
+    "url": "http://interventure.info",
+    "status": 301,
+    "response_time": 0.174966,
+    "error_type": "redirect",
+    "redirect_url": "https://interventure.info/",
+    "final_url_check": {
+      "final_url": "https://interventure.info/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.interventure.info/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:44:52.356264"
+  },
+  {
+    "url": "http://interviewdesk.ai",
+    "status": 302,
+    "response_time": 0.527713,
+    "error_type": "redirect",
+    "redirect_url": "https://interviewdesk.ai/",
+    "final_url_check": {
+      "final_url": "https://interviewdesk.ai/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://interviewdesk.ai/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:44:54.014405"
+  },
+  {
+    "url": "https://intive.com",
+    "status": 301,
+    "response_time": 0.393501,
+    "error_type": "redirect",
+    "redirect_url": "https://www.intive.com/",
+    "final_url_check": {
+      "final_url": "https://www.intive.com/",
+      "status": 200,
+      "response_time": 0.205263,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:44:57.125162"
+  },
+  {
+    "url": "http://intoco.ro",
+    "status": 301,
+    "response_time": 0.271524,
+    "error_type": "redirect",
+    "redirect_url": "http://ancaayash.wixsite.com/intoco",
+    "final_url_check": {
+      "final_url": "http://ancaayash.wixsite.com/intoco",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://ancaayash.wixsite.com/intoco'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:44:58.290123"
+  },
+  {
+    "url": "https://intravacc.nl",
+    "status": 301,
+    "response_time": 0.125362,
+    "error_type": "redirect",
+    "redirect_url": "https://www.intravacc.nl/",
+    "final_url_check": {
+      "final_url": "https://www.intravacc.nl/",
+      "status": 200,
+      "response_time": 0.295241,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:44:59.891661"
+  },
+  {
+    "url": "https://intro-act.com",
+    "status": 301,
+    "response_time": 0.532374,
+    "error_type": "redirect",
+    "redirect_url": "https://www.intro-act.com/",
+    "final_url_check": {
+      "final_url": "https://www.intro-act.com/",
+      "status": 200,
+      "response_time": 0.479423,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:01.483940"
+  },
+  {
+    "url": "https://inveon.com",
+    "status": 301,
+    "response_time": 0.414707,
+    "error_type": "redirect",
+    "redirect_url": "https://www.inveon.com/",
+    "final_url_check": {
+      "final_url": "https://www.inveon.com/",
+      "status": 200,
+      "response_time": 0.676693,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:03.040649"
+  },
+  {
+    "url": "https://investcore.pl",
+    "status": 200,
+    "response_time": 0.086633,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:05.622872"
+  },
+  {
+    "url": "http://invuse.com",
+    "status": 301,
+    "response_time": 0.17717,
+    "error_type": "redirect",
+    "redirect_url": "https://invuse.com/",
+    "final_url_check": {
+      "final_url": "https://invuse.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://invuse.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:06.918252"
+  },
+  {
+    "url": "https://iot83.com",
+    "status": 301,
+    "response_time": 0.330271,
+    "error_type": "redirect",
+    "redirect_url": "https://www.iot83.com/",
+    "final_url_check": {
+      "final_url": "https://www.iot83.com/",
+      "status": 200,
+      "response_time": 0.362155,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:08.565857"
+  },
+  {
+    "url": "http://iotmktg.com",
+    "status": 301,
+    "response_time": 0.069361,
+    "error_type": "redirect",
+    "redirect_url": "https://iotmktg.com/",
+    "final_url_check": {
+      "final_url": "https://iotmktg.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://iotmktg.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:10.251189"
+  },
+  {
+    "url": "https://iprogrammer.com",
+    "status": 301,
+    "response_time": 0.907012,
+    "error_type": "redirect",
+    "redirect_url": "https://www.iprogrammer.com/",
+    "final_url_check": {
+      "final_url": "https://www.iprogrammer.com/",
+      "status": 200,
+      "response_time": 2.414263,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:11.744476"
+  },
+  {
+    "url": "https://iprsam.com",
+    "status": 302,
+    "response_time": 1.370326,
+    "error_type": "redirect",
+    "redirect_url": "https://www.iprsam.com/hu/",
+    "final_url_check": {
+      "final_url": "https://www.iprsam.com/hu/",
+      "status": 200,
+      "response_time": 0.167247,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:16.124846"
+  },
+  {
+    "url": "https://irisbond.com",
+    "status": 301,
+    "response_time": 0.503669,
+    "error_type": "redirect",
+    "redirect_url": "https://www.irisbond.com/",
+    "final_url_check": {
+      "final_url": "https://www.irisbond.com/",
+      "status": 200,
+      "response_time": 0.945522,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:18.765149"
+  },
+  {
+    "url": "http://is-wm.com",
+    "status": 301,
+    "response_time": 0.229399,
+    "error_type": "redirect",
+    "redirect_url": "https://is-wm.com/",
+    "final_url_check": {
+      "final_url": "https://is-wm.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://is-wm.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:20.904439"
+  },
+  {
+    "url": "https://islandpacific.com",
+    "status": 301,
+    "response_time": 0.153195,
+    "error_type": "redirect",
+    "redirect_url": "https://www.islandpacific.com/",
+    "final_url_check": {
+      "final_url": "https://www.islandpacific.com/",
+      "status": 200,
+      "response_time": 0.152582,
+      "error_type": "domain_free",
+      "is_domain_free": true
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:22.877219"
+  },
+  {
+    "url": "https://istreetsolutions.com",
+    "status": 301,
+    "response_time": 0.861305,
+    "error_type": "redirect",
+    "redirect_url": "https://www.istreetsolutions.com/",
+    "final_url_check": {
+      "final_url": "https://www.istreetsolutions.com/",
+      "status": 200,
+      "response_time": 0.857251,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:24.095283"
+  },
+  {
+    "url": "http://isystems.com.tr",
+    "status": 301,
+    "response_time": 0.09126,
+    "error_type": "redirect",
+    "redirect_url": "https://isystems.com.tr/",
+    "final_url_check": {
+      "final_url": "https://isystems.com.tr/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.isystems.al/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:27.430185"
+  },
+  {
+    "url": "https://it-jim.com",
+    "status": 301,
+    "response_time": 0.059891,
+    "error_type": "redirect",
+    "redirect_url": "https://www.it-jim.com/",
+    "final_url_check": {
+      "final_url": "https://www.it-jim.com/",
+      "status": 200,
+      "response_time": 0.24095,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:33.497268"
+  },
+  {
+    "url": "http://italiandesignbrands.com",
+    "status": 301,
+    "response_time": 0.129326,
+    "error_type": "redirect",
+    "redirect_url": "https://italiandesignbrands.com:443/",
+    "final_url_check": {
+      "final_url": "https://italiandesignbrands.com:443/",
+      "status": 503,
+      "response_time": 0.157584,
+      "error_type": "http_error_503",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:34.398392"
+  },
+  {
+    "url": "http://itbuilder.co.uk",
+    "status": 301,
+    "response_time": 0.232641,
+    "error_type": "redirect",
+    "redirect_url": "https://itbuilder.co.uk/",
+    "final_url_check": {
+      "final_url": "https://itbuilder.co.uk/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.itbuilder.co.uk/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:35.634633"
+  },
+  {
+    "url": "https://itcs.hr",
+    "status": 302,
+    "response_time": 0.147361,
+    "error_type": "redirect",
+    "redirect_url": "https://hocu.website/",
+    "final_url_check": {
+      "final_url": "https://hocu.website/",
+      "status": 200,
+      "response_time": 0.389755,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:36.730660"
+  },
+  {
+    "url": "http://itech-solutions.com",
+    "status": 301,
+    "response_time": 0.174135,
+    "error_type": "redirect",
+    "redirect_url": "https://itech-solutions.com/",
+    "final_url_check": {
+      "final_url": "https://itech-solutions.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://itech-solutions.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:38.250931"
+  },
+  {
+    "url": "http://iternity.com",
+    "status": 301,
+    "response_time": 0.202963,
+    "error_type": "redirect",
+    "redirect_url": "https://iternity.com/",
+    "final_url_check": {
+      "final_url": "https://iternity.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://iternity.com/en/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:39.664563"
+  },
+  {
+    "url": "https://itero.eu",
+    "status": 200,
+    "response_time": 0.15798,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:41.460058"
+  },
+  {
+    "url": "https://itgenie.com",
+    "status": 200,
+    "response_time": 0.899961,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:42.990105"
+  },
+  {
+    "url": "http://itglobalserv.com",
+    "status": 301,
+    "response_time": 0.375042,
+    "error_type": "redirect",
+    "redirect_url": "https://itglobalserv.com/",
+    "final_url_check": {
+      "final_url": "https://itglobalserv.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://itglobalserv.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:45.079704"
+  },
+  {
+    "url": "https://ithena.ai",
+    "status": 200,
+    "response_time": 2.69786,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:46.927352"
+  },
+  {
+    "url": "https://ithouse.io",
+    "status": 200,
+    "response_time": 0.307887,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:51.247809"
+  },
+  {
+    "url": "https://itmagination.com",
+    "status": 301,
+    "response_time": 0.29811,
+    "error_type": "redirect",
+    "redirect_url": "https://www.itmagination.com/",
+    "final_url_check": {
+      "final_url": "https://www.itmagination.com/",
+      "status": 200,
+      "response_time": 0.262487,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:52.937281"
+  },
+  {
+    "url": "https://itmatch.com",
+    "status": 200,
+    "response_time": 0.14322,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:54.111970"
+  },
+  {
+    "url": "http://ito.dev",
+    "status": 301,
+    "response_time": 0.174619,
+    "error_type": "redirect",
+    "redirect_url": "https://ito.dev/",
+    "final_url_check": {
+      "final_url": "https://ito.dev/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://ito.dev/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:55.129233"
+  },
+  {
+    "url": "http://itpartner365.com",
+    "status": "error",
+    "response_time": 0,
+    "error_type": "timeout",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:45:56.854116"
+  },
+  {
+    "url": "http://itpomoc.sk",
+    "status": 301,
+    "response_time": 0.285606,
+    "error_type": "redirect",
+    "redirect_url": "https://itpomoc.sk/",
+    "final_url_check": {
+      "final_url": "https://itpomoc.sk/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.itpomoc.sk/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:28.495088"
+  },
+  {
+    "url": "http://itracllc.com",
+    "status": 405,
+    "response_time": 0.323113,
+    "error_type": "http_error_405",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:32.252063"
+  },
+  {
+    "url": "https://itsallpeople.nl",
+    "status": 200,
+    "response_time": 0.159066,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:33.087939"
+  },
+  {
+    "url": "https://itwcp.co.uk",
+    "status": 301,
+    "response_time": 0.153904,
+    "error_type": "redirect",
+    "redirect_url": "https://www.itwcp.co.uk/",
+    "final_url_check": {
+      "final_url": "https://www.itwcp.co.uk/",
+      "status": 200,
+      "response_time": 1.51357,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:34.180403"
+  },
+  {
+    "url": "http://ivalua.com",
+    "status": 301,
+    "response_time": 0.322034,
+    "error_type": "redirect",
+    "redirect_url": "https://ivalua.com/",
+    "final_url_check": {
+      "final_url": "https://ivalua.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.ivalua.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:37.391137"
+  },
+  {
+    "url": "https://ivasystem.fr",
+    "status": 200,
+    "response_time": 0.402782,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:38.929636"
+  },
+  {
+    "url": "http://ivistechnologies.com",
+    "status": 301,
+    "response_time": 1.655708,
+    "error_type": "redirect",
+    "redirect_url": "https://www.ivistechnologies.com/",
+    "final_url_check": {
+      "final_url": "https://www.ivistechnologies.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.ivistechnologies.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:40.390306"
+  },
+  {
+    "url": "http://iwk.de",
+    "status": 301,
+    "response_time": 0.182484,
+    "error_type": "redirect",
+    "redirect_url": "https://iwk.de/",
+    "final_url_check": {
+      "final_url": "https://iwk.de/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://iwk.de/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:43.171669"
+  },
+  {
+    "url": "https://iwrobotx.com",
+    "status": 302,
+    "response_time": 0.219714,
+    "error_type": "redirect",
+    "redirect_url": "/wait/Home",
+    "final_url_check": {
+      "final_url": "/wait/Home",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "/wait/Home"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:44.551634"
+  },
+  {
+    "url": "http://iziwork.com",
+    "status": 301,
+    "response_time": 0.229893,
+    "error_type": "redirect",
+    "redirect_url": "https://iziwork.com/",
+    "final_url_check": {
+      "final_url": "https://iziwork.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.iziwork.com/fr/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:46.229871"
+  },
+  {
+    "url": "https://jabord.com",
+    "status": 301,
+    "response_time": 0.288567,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jabord.com/",
+    "final_url_check": {
+      "final_url": "https://www.jabord.com/",
+      "status": 200,
+      "response_time": 0.749634,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:48.152408"
+  },
+  {
+    "url": "https://jake-vision.pl",
+    "status": 302,
+    "response_time": 0.450188,
+    "error_type": "redirect",
+    "redirect_url": "https://jake-vision.pl/pl_PL/",
+    "final_url_check": {
+      "final_url": "https://jake-vision.pl/pl_PL/",
+      "status": 200,
+      "response_time": 0.843461,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:50.506846"
+  },
+  {
+    "url": "http://james-mckenzie.co.uk",
+    "status": 301,
+    "response_time": 0.177489,
+    "error_type": "redirect",
+    "redirect_url": "https://jmwills.co.uk/",
+    "final_url_check": {
+      "final_url": "https://jmwills.co.uk/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://jmwills.co.uk/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:52.688240"
+  },
+  {
+    "url": "http://jamesedition.com",
+    "status": 301,
+    "response_time": 0.097924,
+    "error_type": "redirect",
+    "redirect_url": "https://jamesedition.com/",
+    "final_url_check": {
+      "final_url": "https://jamesedition.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.jamesedition.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:54.263284"
+  },
+  {
+    "url": "https://januar.com",
+    "status": 301,
+    "response_time": 0.518358,
+    "error_type": "redirect",
+    "redirect_url": "https://www.januar.com/",
+    "final_url_check": {
+      "final_url": "https://www.januar.com/",
+      "status": 200,
+      "response_time": 0.338349,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:55.374742"
+  },
+  {
+    "url": "https://jaraware.com",
+    "status": 200,
+    "response_time": 0.752484,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:57.006423"
+  },
+  {
+    "url": "http://jasvishenterprise.com",
+    "status": 301,
+    "response_time": 0.298018,
+    "error_type": "redirect",
+    "redirect_url": "https://jasvishenterprise.com/",
+    "final_url_check": {
+      "final_url": "https://jasvishenterprise.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://jasvishenterprise.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:46:59.040384"
+  },
+  {
+    "url": "https://javra.com",
+    "status": 200,
+    "response_time": 0.313715,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:00.936293"
+  },
+  {
+    "url": "http://jbmpatrol.com",
+    "status": 301,
+    "response_time": 0.177768,
+    "error_type": "redirect",
+    "redirect_url": "http://patrolprotectsecure.com/jbm",
+    "final_url_check": {
+      "final_url": "http://patrolprotectsecure.com/jbm",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.patrolprotectsecure.com/jbm'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:02.530792"
+  },
+  {
+    "url": "https://jestor.com",
+    "status": 200,
+    "response_time": 0.182582,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:04.533537"
+  },
+  {
+    "url": "http://jetrails.com",
+    "status": 301,
+    "response_time": 0.07319,
+    "error_type": "redirect",
+    "redirect_url": "https://jetrails.com/",
+    "final_url_check": {
+      "final_url": "https://jetrails.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://jetrails.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:05.715753"
+  },
+  {
+    "url": "https://jettyrobot.com",
+    "status": 301,
+    "response_time": 0.286328,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jettyrobot.com/",
+    "final_url_check": {
+      "final_url": "https://www.jettyrobot.com/",
+      "status": 200,
+      "response_time": 0.240467,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:06.440273"
+  },
+  {
+    "url": "https://jettyrobot.com",
+    "status": 301,
+    "response_time": 0.402954,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jettyrobot.com/",
+    "final_url_check": {
+      "final_url": "https://www.jettyrobot.com/",
+      "status": 200,
+      "response_time": 0.221673,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:07.865903"
+  },
+  {
+    "url": "http://jigsaw24.com",
+    "status": 301,
+    "response_time": 0.200191,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jigsaw24.com/",
+    "final_url_check": {
+      "final_url": "https://www.jigsaw24.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.jigsaw24.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:09.870091"
+  },
+  {
+    "url": "http://jigzo.com",
+    "status": 301,
+    "response_time": 0.175025,
+    "error_type": "redirect",
+    "redirect_url": "https://jigzo.com/",
+    "final_url_check": {
+      "final_url": "https://jigzo.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://jigzo.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:12.279178"
+  },
+  {
+    "url": "http://jlg.ro",
+    "status": 301,
+    "response_time": 0.499435,
+    "error_type": "redirect",
+    "redirect_url": "https://jlg.ro/",
+    "final_url_check": {
+      "final_url": "https://jlg.ro/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.jlg.ro/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:13.831582"
+  },
+  {
+    "url": "https://jmango360.com",
+    "status": 200,
+    "response_time": 5.697293,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:15.964026"
+  },
+  {
+    "url": "http://jmc-software.ch",
+    "status": 301,
+    "response_time": 0.078078,
+    "error_type": "redirect",
+    "redirect_url": "https://www.convotis.ch",
+    "final_url_check": {
+      "final_url": "https://www.convotis.ch",
+      "status": 200,
+      "response_time": 0.300923,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:23.169411"
+  },
+  {
+    "url": "http://jobful.ro",
+    "status": 301,
+    "response_time": 0.180561,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jobful.io/",
+    "final_url_check": {
+      "final_url": "https://www.jobful.io/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://jobful.io/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:24.502792"
+  },
+  {
+    "url": "https://jobmofy.com",
+    "status": 200,
+    "response_time": 0.356412,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:26.128092"
+  },
+  {
+    "url": "http://jobstoday.world",
+    "status": 301,
+    "response_time": 0.181538,
+    "error_type": "redirect",
+    "redirect_url": "https://jobstoday.world:443/",
+    "final_url_check": {
+      "final_url": "https://jobstoday.world:443/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://jobstoday.world/en/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:27.713090"
+  },
+  {
+    "url": "http://jobswappy.com",
+    "status": "error",
+    "response_time": 0,
+    "error_type": "timeout",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:47:29.333972"
+  },
+  {
+    "url": "http://jobtech.it",
+    "status": 301,
+    "response_time": 0.182156,
+    "error_type": "redirect",
+    "redirect_url": "https://jobtech.it/",
+    "final_url_check": {
+      "final_url": "https://jobtech.it/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://jobtech.it/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:48:00.877880"
+  },
+  {
+    "url": "http://jobtoday.com",
+    "status": 301,
+    "response_time": 0.163016,
+    "error_type": "redirect",
+    "redirect_url": "https://jobtoday.com:443/",
+    "final_url_check": {
+      "final_url": "https://jobtoday.com:443/",
+      "status": 410,
+      "response_time": 0.428983,
+      "error_type": "http_error_410",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:48:03.028685"
+  },
+  {
+    "url": "http://joget.com",
+    "status": 301,
+    "response_time": 0.206051,
+    "error_type": "redirect",
+    "redirect_url": "https://joget.com/",
+    "final_url_check": {
+      "final_url": "https://joget.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://joget.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:48:04.558405"
+  },
+  {
+    "url": "http://johannes.pics",
+    "status": 301,
+    "response_time": 0.182634,
+    "error_type": "redirect",
+    "redirect_url": "https://johannes.pics/",
+    "final_url_check": {
+      "final_url": "https://johannes.pics/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://johannes.pics/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:48:06.343615"
+  },
+  {
+    "url": "http://join5x5.com",
+    "status": 302,
+    "response_time": 0.387542,
+    "error_type": "redirect",
+    "redirect_url": "https://5x5coop.com",
+    "final_url_check": {
+      "final_url": "https://5x5coop.com",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://5x5data.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:48:07.592238"
+  },
+  {
+    "url": "https://jomigo.de",
+    "status": 301,
+    "response_time": 0.539305,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jomigo.de/",
+    "final_url_check": {
+      "final_url": "https://www.jomigo.de/",
+      "status": 200,
+      "response_time": 0.257144,
+      "error_type": "domain_free",
+      "is_domain_free": true
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:48:09.615358"
+  },
+  {
+    "url": "http://joymecapital.com",
+    "status": "error",
+    "response_time": 0,
+    "error_type": "timeout",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:48:11.894494"
+  },
+  {
+    "url": "http://jpc-it.com",
+    "status": 404,
+    "response_time": 0.255826,
+    "error_type": "not_found",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:48:43.226797"
+  },
+  {
+    "url": "http://jrgpartners.com",
+    "status": 301,
+    "response_time": 0.335582,
+    "error_type": "redirect",
+    "redirect_url": "https://jrgpartners.com/",
+    "final_url_check": {
+      "final_url": "https://jrgpartners.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.jrgpartners.com/'"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:48:44.674740"
+  }
+]

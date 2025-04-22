@@ -1,0 +1,1090 @@
+[
+  {
+    "url": "http://intelligentautomationcorp.com",
+    "status": "error",
+    "response_time": 0,
+    "error_type": "connection_error",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.719764",
+    "error_message": "Cannot connect to host intelligentautomationcorp.com:80 ssl:default [nodename nor servname provided, or not known]"
+  },
+  {
+    "url": "https://interactioneurope.com",
+    "status": 301,
+    "response_time": 0.266692,
+    "error_type": "redirect",
+    "redirect_url": "https://www.covalensolutions.com/",
+    "final_url_check": {
+      "final_url": "https://www.covalensolutions.com/",
+      "status": 200,
+      "response_time": 0.662191,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.720001"
+  },
+  {
+    "url": "http://interactiveedge.com",
+    "status": 301,
+    "response_time": 0.297972,
+    "error_type": "redirect",
+    "redirect_url": "http://www.nuqleous.com/xp3-presentation-builder",
+    "final_url_check": {
+      "final_url": "http://www.nuqleous.com/xp3-presentation-builder",
+      "status": 200,
+      "response_time": 1.365206,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.720321"
+  },
+  {
+    "url": "https://interacty.me",
+    "status": 200,
+    "response_time": 0.77797,
+    "error_type": "domain_free",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": true,
+    "check_time": "2025-04-22T22:32:52.720634"
+  },
+  {
+    "url": "https://intergral.com",
+    "status": 301,
+    "response_time": 0.45387,
+    "error_type": "redirect",
+    "redirect_url": "https://www.intergral.com/",
+    "final_url_check": {
+      "final_url": "https://www.intergral.com/",
+      "status": 200,
+      "response_time": 0.252597,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.720949"
+  },
+  {
+    "url": "https://internationalshowtimes.com",
+    "status": 308,
+    "response_time": 0.248495,
+    "error_type": "redirect",
+    "redirect_url": "https://www.internationalshowtimes.com/",
+    "final_url_check": {
+      "final_url": "https://www.internationalshowtimes.com/",
+      "status": 200,
+      "response_time": 0.754671,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.721269"
+  },
+  {
+    "url": "http://interventure.info",
+    "status": 301,
+    "response_time": 0.334393,
+    "error_type": "redirect",
+    "redirect_url": "https://interventure.info/",
+    "final_url_check": {
+      "final_url": "https://interventure.info/",
+      "status": 403,
+      "response_time": 1.025713,
+      "error_type": "blocked_by_ip",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.721538"
+  },
+  {
+    "url": "https://interviewdesk.ai",
+    "status": 200,
+    "response_time": 1.783523,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.721939"
+  },
+  {
+    "url": "https://intive.com",
+    "status": 301,
+    "response_time": 0.770945,
+    "error_type": "redirect",
+    "redirect_url": "https://www.intive.com/",
+    "final_url_check": {
+      "final_url": "https://www.intive.com/",
+      "status": 200,
+      "response_time": 0.261101,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.722250"
+  },
+  {
+    "url": "https://intoco.ro",
+    "status": 301,
+    "response_time": 0.508009,
+    "error_type": "redirect",
+    "redirect_url": "http://ancaayash.wixsite.com/intoco",
+    "final_url_check": {
+      "final_url": "http://ancaayash.wixsite.com/intoco",
+      "status": 200,
+      "response_time": 0.421711,
+      "error_type": "domain_free",
+      "is_domain_free": true
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.722368"
+  },
+  {
+    "url": "https://intravacc.nl",
+    "status": 301,
+    "response_time": 0.241594,
+    "error_type": "redirect",
+    "redirect_url": "https://www.intravacc.nl/",
+    "final_url_check": {
+      "final_url": "https://www.intravacc.nl/",
+      "status": 200,
+      "response_time": 0.528861,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.722627"
+  },
+  {
+    "url": "https://intro-act.com",
+    "status": 301,
+    "response_time": 0.695146,
+    "error_type": "redirect",
+    "redirect_url": "https://www.intro-act.com/",
+    "final_url_check": {
+      "final_url": "https://www.intro-act.com/",
+      "status": 200,
+      "response_time": 0.48817,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.722755"
+  },
+  {
+    "url": "https://inveon.com",
+    "status": 301,
+    "response_time": 0.590066,
+    "error_type": "redirect",
+    "redirect_url": "https://www.inveon.com/",
+    "final_url_check": {
+      "final_url": "https://www.inveon.com/",
+      "status": 200,
+      "response_time": 0.711556,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.723009"
+  },
+  {
+    "url": "https://investcore.pl",
+    "status": 200,
+    "response_time": 0.180353,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.723317"
+  },
+  {
+    "url": "https://invuse.com",
+    "status": 200,
+    "response_time": 0.430597,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.723585"
+  },
+  {
+    "url": "https://iot83.com",
+    "status": 301,
+    "response_time": 0.68368,
+    "error_type": "redirect",
+    "redirect_url": "https://www.iot83.com/",
+    "final_url_check": {
+      "final_url": "https://www.iot83.com/",
+      "status": 200,
+      "response_time": 0.396834,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.723737"
+  },
+  {
+    "url": "http://iotmktg.com",
+    "status": 301,
+    "response_time": 0.204552,
+    "error_type": "redirect",
+    "redirect_url": "https://iotmktg.com/",
+    "final_url_check": {
+      "final_url": "https://iotmktg.com/",
+      "status": 403,
+      "response_time": 0.318959,
+      "error_type": "blocked_by_ip",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.723844"
+  },
+  {
+    "url": "https://iprogrammer.com",
+    "status": 301,
+    "response_time": 1.032576,
+    "error_type": "redirect",
+    "redirect_url": "https://www.iprogrammer.com/",
+    "final_url_check": {
+      "final_url": "https://www.iprogrammer.com/",
+      "status": 200,
+      "response_time": 2.472423,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.723961"
+  },
+  {
+    "url": "https://iprsam.com",
+    "status": 302,
+    "response_time": 1.485058,
+    "error_type": "redirect",
+    "redirect_url": "https://www.iprsam.com/hu/",
+    "final_url_check": {
+      "final_url": "https://www.iprsam.com/hu/",
+      "status": 200,
+      "response_time": 3.620501,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.724063"
+  },
+  {
+    "url": "https://irisbond.com",
+    "status": 301,
+    "response_time": 0.706943,
+    "error_type": "redirect",
+    "redirect_url": "https://www.irisbond.com/",
+    "final_url_check": {
+      "final_url": "https://www.irisbond.com/",
+      "status": 200,
+      "response_time": 0.842349,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.724166"
+  },
+  {
+    "url": "https://is-wm.com",
+    "status": 200,
+    "response_time": 0.461589,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.724274"
+  },
+  {
+    "url": "http://islandpacific.com",
+    "status": 403,
+    "response_time": 0.43158,
+    "error_type": "blocked_by_ip",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.724447"
+  },
+  {
+    "url": "https://istreetsolutions.com",
+    "status": 301,
+    "response_time": 1.041741,
+    "error_type": "redirect",
+    "redirect_url": "https://www.istreetsolutions.com/",
+    "final_url_check": {
+      "final_url": "https://www.istreetsolutions.com/",
+      "status": 200,
+      "response_time": 0.867695,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.724564"
+  },
+  {
+    "url": "http://isystems.com.tr",
+    "status": 301,
+    "response_time": 0.522457,
+    "error_type": "redirect",
+    "redirect_url": "https://isystems.com.tr/",
+    "final_url_check": {
+      "final_url": "https://isystems.com.tr/",
+      "status": 200,
+      "response_time": 5.29136,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.724664"
+  },
+  {
+    "url": "https://it-jim.com",
+    "status": 301,
+    "response_time": 0.09677,
+    "error_type": "redirect",
+    "redirect_url": "https://www.it-jim.com/",
+    "final_url_check": {
+      "final_url": "https://www.it-jim.com/",
+      "status": 200,
+      "response_time": 0.540669,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.724774"
+  },
+  {
+    "url": "http://italiandesignbrands.com",
+    "status": 301,
+    "response_time": 0.419775,
+    "error_type": "redirect",
+    "redirect_url": "https://italiandesignbrands.com:443/",
+    "final_url_check": {
+      "final_url": "https://italiandesignbrands.com:443/",
+      "status": 503,
+      "response_time": 0.348486,
+      "error_type": "http_error_503",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.724871"
+  },
+  {
+    "url": "https://itbuilder.co.uk",
+    "status": 301,
+    "response_time": 0.46822,
+    "error_type": "redirect",
+    "redirect_url": "https://www.itbuilder.co.uk/",
+    "final_url_check": {
+      "final_url": "https://www.itbuilder.co.uk/",
+      "status": 200,
+      "response_time": 0.496897,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.724980"
+  },
+  {
+    "url": "http://itcs.hr",
+    "status": 301,
+    "response_time": 0.386658,
+    "error_type": "redirect",
+    "redirect_url": "https://www.itcs.hr/",
+    "final_url_check": {
+      "final_url": "https://www.itcs.hr/",
+      "status": 200,
+      "response_time": 0.502991,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.725075"
+  },
+  {
+    "url": "https://itech-solutions.com",
+    "status": 200,
+    "response_time": 0.672186,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.725181"
+  },
+  {
+    "url": "https://iternity.com",
+    "status": 302,
+    "response_time": 0.505303,
+    "error_type": "redirect",
+    "redirect_url": "https://iternity.com/de/",
+    "final_url_check": {
+      "final_url": "https://iternity.com/de/",
+      "status": 200,
+      "response_time": 0.204132,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.725336"
+  },
+  {
+    "url": "https://itero.eu",
+    "status": 200,
+    "response_time": 0.512388,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.725429"
+  },
+  {
+    "url": "https://itgenie.com",
+    "status": 200,
+    "response_time": 0.989354,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.725521"
+  },
+  {
+    "url": "https://itglobalserv.com",
+    "status": 200,
+    "response_time": 1.127431,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.725611"
+  },
+  {
+    "url": "https://ithena.ai",
+    "status": 200,
+    "response_time": 2.560467,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.725703"
+  },
+  {
+    "url": "https://ithouse.io",
+    "status": 200,
+    "response_time": 0.685136,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.725794"
+  },
+  {
+    "url": "https://itmagination.com",
+    "status": 301,
+    "response_time": 0.511518,
+    "error_type": "redirect",
+    "redirect_url": "https://www.itmagination.com/",
+    "final_url_check": {
+      "final_url": "https://www.itmagination.com/",
+      "status": 200,
+      "response_time": 0.392525,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.725885"
+  },
+  {
+    "url": "http://itmatch.com",
+    "status": 403,
+    "response_time": 0.557011,
+    "error_type": "blocked_by_ip",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.725976"
+  },
+  {
+    "url": "https://ito.dev",
+    "status": 200,
+    "response_time": 1.390783,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.726188"
+  },
+  {
+    "url": "http://itpartner365.com",
+    "status": "error",
+    "response_time": 0,
+    "error_type": "timeout",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.726305"
+  },
+  {
+    "url": "https://itpomoc.sk",
+    "status": 301,
+    "response_time": 1.896371,
+    "error_type": "redirect",
+    "redirect_url": "https://www.itpomoc.sk/",
+    "final_url_check": {
+      "final_url": "https://www.itpomoc.sk/",
+      "status": 200,
+      "response_time": 0.612179,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.726433"
+  },
+  {
+    "url": "http://itracllc.com",
+    "status": 302,
+    "response_time": 0.556523,
+    "error_type": "redirect",
+    "redirect_url": "https://itracllc.com:443/",
+    "final_url_check": {
+      "final_url": "https://itracllc.com:443/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "Cannot connect to host itracllc.com:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'itracllc.com'. (_ssl.c:1010)\")]"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.726526"
+  },
+  {
+    "url": "https://itsallpeople.nl",
+    "status": 200,
+    "response_time": 0.345806,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.726667"
+  },
+  {
+    "url": "http://itwcp.co.uk",
+    "status": 301,
+    "response_time": 0.323174,
+    "error_type": "redirect",
+    "redirect_url": "https://www.itwcp.co.uk/",
+    "final_url_check": {
+      "final_url": "https://www.itwcp.co.uk/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "Cannot connect to host www.itwcp.co.uk:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')]"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.726760"
+  },
+  {
+    "url": "http://ivalua.com",
+    "status": 403,
+    "response_time": 0.32229,
+    "error_type": "blocked_by_ip",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.726893"
+  },
+  {
+    "url": "https://ivasystem.fr",
+    "status": 200,
+    "response_time": 0.576199,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.727021"
+  },
+  {
+    "url": "https://ivistechnologies.com",
+    "status": 301,
+    "response_time": 1.180212,
+    "error_type": "redirect",
+    "redirect_url": "https://www.ivistechnologies.com/",
+    "final_url_check": {
+      "final_url": "https://www.ivistechnologies.com/",
+      "status": 200,
+      "response_time": 0.309802,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.727276"
+  },
+  {
+    "url": "https://iwk.de",
+    "status": 200,
+    "response_time": 0.324822,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.727479"
+  },
+  {
+    "url": "https://iwrobotx.com",
+    "status": 302,
+    "response_time": 0.510537,
+    "error_type": "redirect",
+    "redirect_url": "/wait/Home",
+    "final_url_check": {
+      "final_url": "/wait/Home",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "/wait/Home"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.727584"
+  },
+  {
+    "url": "https://iziwork.com",
+    "status": 301,
+    "response_time": 0.324221,
+    "error_type": "redirect",
+    "redirect_url": "https://www.iziwork.com/",
+    "final_url_check": {
+      "final_url": "https://www.iziwork.com/",
+      "status": 200,
+      "response_time": 0.317439,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.727681"
+  },
+  {
+    "url": "http://jabord.com",
+    "status": 301,
+    "response_time": 0.402766,
+    "error_type": "redirect",
+    "redirect_url": "https://jabord.com/",
+    "final_url_check": {
+      "final_url": "https://jabord.com/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "Cannot connect to host jabord.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')]"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.727775"
+  },
+  {
+    "url": "https://jake-vision.pl",
+    "status": 302,
+    "response_time": 0.657185,
+    "error_type": "redirect",
+    "redirect_url": "https://jake-vision.pl/pl_PL/",
+    "final_url_check": {
+      "final_url": "https://jake-vision.pl/pl_PL/",
+      "status": 200,
+      "response_time": 0.700199,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.727886"
+  },
+  {
+    "url": "https://james-mckenzie.co.uk",
+    "status": 301,
+    "response_time": 0.241616,
+    "error_type": "redirect",
+    "redirect_url": "https://jmwills.co.uk/",
+    "final_url_check": {
+      "final_url": "https://jmwills.co.uk/",
+      "status": 200,
+      "response_time": 0.461807,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.727985"
+  },
+  {
+    "url": "http://jamesedition.com",
+    "status": 301,
+    "response_time": 0.416943,
+    "error_type": "redirect",
+    "redirect_url": "https://jamesedition.com/",
+    "final_url_check": {
+      "final_url": "https://jamesedition.com/",
+      "status": 403,
+      "response_time": 0.392558,
+      "error_type": "blocked_by_ip",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.728079"
+  },
+  {
+    "url": "https://januar.com",
+    "status": 301,
+    "response_time": 0.633364,
+    "error_type": "redirect",
+    "redirect_url": "https://www.januar.com/",
+    "final_url_check": {
+      "final_url": "https://www.januar.com/",
+      "status": 200,
+      "response_time": 0.331404,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.728246"
+  },
+  {
+    "url": "https://jaraware.com",
+    "status": 200,
+    "response_time": 0.858213,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.728339"
+  },
+  {
+    "url": "https://jasvishenterprise.com",
+    "status": 200,
+    "response_time": 1.094164,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.728431"
+  },
+  {
+    "url": "https://javra.com",
+    "status": 200,
+    "response_time": 0.63023,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.728522"
+  },
+  {
+    "url": "https://jbmpatrol.com",
+    "status": 301,
+    "response_time": 3.262019,
+    "error_type": "redirect",
+    "redirect_url": "http://patrolprotectsecure.com/jbm",
+    "final_url_check": {
+      "final_url": "http://patrolprotectsecure.com/jbm",
+      "status": 200,
+      "response_time": 0.741174,
+      "error_type": "domain_free",
+      "is_domain_free": true
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.728613"
+  },
+  {
+    "url": "https://jestor.com",
+    "status": 200,
+    "response_time": 0.371115,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.728703"
+  },
+  {
+    "url": "http://jetrails.com",
+    "status": 301,
+    "response_time": 0.288491,
+    "error_type": "redirect",
+    "redirect_url": "https://jetrails.com/",
+    "final_url_check": {
+      "final_url": "https://jetrails.com/",
+      "status": 403,
+      "response_time": 0.298988,
+      "error_type": "blocked_by_ip",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.728793"
+  },
+  {
+    "url": "https://jettyrobot.com",
+    "status": 301,
+    "response_time": 0.588286,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jettyrobot.com/",
+    "final_url_check": {
+      "final_url": "https://www.jettyrobot.com/",
+      "status": 200,
+      "response_time": 0.272674,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.729301"
+  },
+  {
+    "url": "https://jettyrobot.com",
+    "status": 301,
+    "response_time": 0.585624,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jettyrobot.com/",
+    "final_url_check": {
+      "final_url": "https://www.jettyrobot.com/",
+      "status": 200,
+      "response_time": 0.315403,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.729485"
+  },
+  {
+    "url": "https://jigsaw24.com",
+    "status": 301,
+    "response_time": 0.541917,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jigsaw24.com/",
+    "final_url_check": {
+      "final_url": "https://www.jigsaw24.com/",
+      "status": 200,
+      "response_time": 1.224899,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.729567"
+  },
+  {
+    "url": "https://jigzo.com",
+    "status": 200,
+    "response_time": 0.433389,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.729688"
+  },
+  {
+    "url": "https://jlg.ro",
+    "status": 301,
+    "response_time": 0.897403,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jlg.ro/",
+    "final_url_check": {
+      "final_url": "https://www.jlg.ro/",
+      "status": 200,
+      "response_time": 0.155391,
+      "error_type": "domain_free",
+      "is_domain_free": true
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.729791"
+  },
+  {
+    "url": "https://jmango360.com",
+    "status": 200,
+    "response_time": 2.474679,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.729896"
+  },
+  {
+    "url": "http://jmc-software.ch",
+    "status": 301,
+    "response_time": 0.553365,
+    "error_type": "redirect",
+    "redirect_url": "https://www.convotis.ch",
+    "final_url_check": {
+      "final_url": "https://www.convotis.ch",
+      "status": 200,
+      "response_time": 0.356692,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.729992"
+  },
+  {
+    "url": "https://jobful.ro",
+    "status": 301,
+    "response_time": 0.425696,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jobful.io/",
+    "final_url_check": {
+      "final_url": "https://www.jobful.io/",
+      "status": 200,
+      "response_time": 0.558003,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.730134"
+  },
+  {
+    "url": "https://jobmofy.com",
+    "status": 200,
+    "response_time": 0.44726,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.730242"
+  },
+  {
+    "url": "https://jobstoday.world",
+    "status": 301,
+    "response_time": 0.541006,
+    "error_type": "redirect",
+    "redirect_url": "/en/",
+    "final_url_check": {
+      "final_url": "/en/",
+      "status": "error",
+      "response_time": 0,
+      "error_type": "unknown_error",
+      "is_domain_free": false,
+      "error_message": "/en/"
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.730357"
+  },
+  {
+    "url": "http://jobswappy.com",
+    "status": "error",
+    "response_time": 0,
+    "error_type": "timeout",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.731840"
+  },
+  {
+    "url": "https://jobtech.it",
+    "status": 200,
+    "response_time": 1.288517,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.731973"
+  },
+  {
+    "url": "http://jobtoday.com",
+    "status": 301,
+    "response_time": 0.431088,
+    "error_type": "redirect",
+    "redirect_url": "https://jobtoday.com:443/",
+    "final_url_check": {
+      "final_url": "https://jobtoday.com:443/",
+      "status": 410,
+      "response_time": 0.424318,
+      "error_type": "http_error_410",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.732078"
+  },
+  {
+    "url": "https://joget.com",
+    "status": 200,
+    "response_time": 0.432978,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.732206"
+  },
+  {
+    "url": "https://johannes.pics",
+    "status": 200,
+    "response_time": 0.428405,
+    "error_type": "available",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.732327"
+  },
+  {
+    "url": "http://join5x5.com",
+    "status": 302,
+    "response_time": 0.562333,
+    "error_type": "redirect",
+    "redirect_url": "https://5x5coop.com",
+    "final_url_check": {
+      "final_url": "https://5x5coop.com",
+      "status": 200,
+      "response_time": 3.856471,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.732420"
+  },
+  {
+    "url": "https://jomigo.de",
+    "status": 301,
+    "response_time": 0.853084,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jomigo.de/",
+    "final_url_check": {
+      "final_url": "https://www.jomigo.de/",
+      "status": 200,
+      "response_time": 0.26755,
+      "error_type": "domain_free",
+      "is_domain_free": true
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.732524"
+  },
+  {
+    "url": "http://joymecapital.com",
+    "status": "error",
+    "response_time": 0,
+    "error_type": "timeout",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.732615"
+  },
+  {
+    "url": "http://jpc-it.com",
+    "status": 403,
+    "response_time": 0.561952,
+    "error_type": "blocked_by_ip",
+    "redirect_url": null,
+    "final_url_check": null,
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.732719"
+  },
+  {
+    "url": "https://jrgpartners.com",
+    "status": 301,
+    "response_time": 0.566839,
+    "error_type": "redirect",
+    "redirect_url": "https://www.jrgpartners.com/",
+    "final_url_check": {
+      "final_url": "https://www.jrgpartners.com/",
+      "status": 200,
+      "response_time": 0.773588,
+      "error_type": "available",
+      "is_domain_free": false
+    },
+    "is_domain_free": false,
+    "check_time": "2025-04-22T22:32:52.732893"
+  }
+]
